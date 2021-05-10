@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 
-// to hide password on a hidden file
+// to hide password on a hidden file but not working
 require('dotenv').config();
 const password = process.env.PASSWORD;
 
